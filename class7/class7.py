@@ -28,6 +28,25 @@ for i in range(5):
 # 這裡的break是跳出內層的for j迴圈
 # 外層的for i迴圈不受影響,會繼續執行
 
+# 果汁飲料機範例
+while True:
+    print("1. 蘋果汁")
+    print("2. 柳橙汁")
+    print("3. 葡萄汁")
+    print("4. 離開")
+    choice = input("請選擇飲料(1-4):")
+    if choice == "1":
+        print("您選擇了蘋果汁")
+    elif choice == "2":
+        print("您選擇了柳橙汁")
+    elif choice == "3":
+        print("您選擇了葡萄汁")
+    elif choice == "4":
+        print("謝謝惠顧，再見！")
+        break  # 跳出迴圈
+    else:
+        print("輸入錯誤查無此果汁，請重新選擇")
+
 # 　continue
 # 迴圈的continue可以用來跳過本回合的剩餘程式,直接進入下一回合, else可以正常執行
 # 例如：
