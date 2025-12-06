@@ -1,5 +1,5 @@
 score = int(input("請輸入成績:"))
-if score >= 90 and score <= 100:
+if score >= 90:
     print("你的成績等第是A!")
 elif score >= 80 and score < 90:
     print("你的成績等第是B!")
