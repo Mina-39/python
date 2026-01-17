@@ -122,7 +122,7 @@ area = 100  # 全域變數
 
 
 def calculate_square_area():
-    global area  # 使用global，將area變成全域變數，可以在函數內部修改全域變數的值
+    global area  # 使用global，將area變成全域變數
     area = length**2  # length是全域變數, area是區域變數
 
 
